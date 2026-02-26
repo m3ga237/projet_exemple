@@ -5,5 +5,5 @@ ce projet est un projet que je me suis imposé en vue de le partager pour montre
 
 le sujet a été imposé par un IA générative 
 
-#important 
+# important 
 pensez bien a importer le script en .sql fourni sur un serveur WAMP ou LAMP local afin de pouvoir faire fonctionner le site
