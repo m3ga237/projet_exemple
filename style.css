@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+header a { 
+    color: #ff4d4d; 
+    text-decoration: none; 
+    float: right;
+}
+
+main {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex: 1;
+} 
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex: 1;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th { background: #f8f9fa; }
+
+.error { color: red; }
+
+.action-btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.edit { background-color: #ffc107; color: black; }
+.delete { background-color: #dc3545; }
+
+.footer {
+    background: #333;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
